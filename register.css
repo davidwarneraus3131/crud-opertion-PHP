@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    /* background:linear-gradient(rgba(0,0,0,1)) ,(rgba(0,0,0,.7),url(https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&w=600)); */
+
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url(https://images.pexels.com/photos/6936405/pexels-photo-6936405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-image: no-repeat;
+
+}
+
+h1 {
+
+    color: rgb(71, 191, 247);
+}
+
+.pa {
+    display: none;
+}
+
+.class {
+
+    display: grid;
+    place-items: center;
+
+
+}
+
+
+
+.one {
+    display: flex;
+
+}
+
+.two {
+    display: flex;
+
+}
+
+.three {
+    display: flex;
+
+}
+
+.four {
+    display: flex;
+
+}
+
+.five {
+    display: flex;
+
+}
+
+.red {
+    margin-left: 94px;
+    width: 50%;
+}
+
+.email {
+    width: 100%;
+    margin-left: 94px;
+    display: block;
+}
+
+.email input {
+    width: 73%;
+
+}
+
+.red input {
+    width: 90%;
+    border-radius: 3px;
+}
+
+form {
+    color: rgb(202, 243, 243);
+}
+
+.footer {
+    width: 100%;
+
+}
+
+.footer input {
+    border-radius: 3px;
+}
+
+
+.button {
+    display: grid;
+    place-items: center;
+
+}
+
+button {
+
+    background-color: rgb(55, 163, 127);
+    color: white;
+
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 12px;
+    outline: none;
+
+}
